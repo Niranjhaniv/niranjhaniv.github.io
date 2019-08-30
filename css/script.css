@@ -10,6 +10,74 @@
     left: 0;
     z-index: 2000;
 }
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.profile-page .image-container {
+    background: url(../Images/hp.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.image-container {
+    height: 100%;
+    position: fixed;
+    padding: 0;
+    overflow: hidden;
+}
+
+.content-container {
+    left: 41.666%;
+    position: relative;
+    padding: 0;
+    background: #f5f5f5;
+}
+.close-btn {
+    background: url(../Images/close.png);
+    z-index: 1000;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 3%;
+    top: 30px;
+    background-size: cover;
+}
+.story {
+    background: url();
+    background-size: cover;
+    min-height: 100vh;
+}
+.story-content {
+    padding: 20px;
+}
+
+.story-content div a {
+    border: 1px solid #00B6F9;
+    color: #00B6F9;
+    display: block;
+    float: left;
+    margin: 29px 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    -webkir-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.story-content img {
+    padding: 0;
+    border: 1px solid #00B6F9;
+    margin-top: 10%;
+}
+  
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
 .introduction {
     float: left;
     padding: 0;
@@ -27,10 +95,30 @@
     font-size: 25px;
 }
 
+.main-heading h1 {
+    color: #fff;
+    position: relative;
+    text-align: left;
+    font-size: 63px;
+    font-weight: 500;
+}
+.main-heading h1 span {
+    color: #00B6F9;
+}
 .introduction img {
     position: absolute;
     top: 0;
     left: 0;
+}
+.main-heading {
+    position: relative;
+    top: 50%;
+    padding-left: 50px;
+    -webkit-transform: translateY(200%);
+    -moz-transform: translateY(200%);
+    -ms-transform: translateY(200%);
+    -o-transform: translateY(200%);
+    transform: translateY(200%);
 }
 .mask {
     width: 100%;
